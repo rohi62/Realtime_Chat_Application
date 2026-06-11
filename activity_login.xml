@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:id="@+id/main"
+
+
+    tools:context=".LoginActivity">
+
+    <ImageButton
+        android:id="@+id/googlebutton"
+
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="431dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="241dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/rounder_corner"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/google_image" />
+
+    <ImageButton
+
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:id="@+id/facebookbtn"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="563dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="109dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/rounder_corner"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/facebook_image" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="341dp"
+        android:layout_height="341dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="143dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="254dp"
+        android:background="@drawable/rounder_corner"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/rr" />
+
+
+    <TextView
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="-3dp"
+        android:layout_marginEnd="194dp"
+        android:layout_marginBottom="689dp"
+        android:fontFamily="@font/allan"
+        android:gravity="center"
+        android:text="SameFoR..."
+
+        android:textColor="@color/ligh_sky"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="98dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="590dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/abyssinica_sil"
+        android:text="Currently, we have limited login options. However, in the future, we will offer multiple login options. "
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="527dp"
+        android:layout_marginEnd="129dp"
+        android:layout_marginBottom="185dp"
+        android:text="_______or_______"
+        android:textColor="@color/black"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="692dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Login Now ?"
+        android:textColor="@color/black"
+        android:textStyle="italic" />
+
+
+</RelativeLayout>

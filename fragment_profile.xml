@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ProfileFragment">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="97dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profilepic"
+            android:layout_width="114dp"
+            android:layout_height="99dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/camera"
+            app:civ_border_width="2dp" />
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alike_angular"
+                android:text="Your Email"
+
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/emailfeatch"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/buton_squre"
+                android:paddingLeft="5dp"
+                android:paddingTop="6dp"
+                android:text="Youe Email"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alike_angular"
+                android:text="Email Name"
+
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/emailnamefeatch"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/buton_squre"
+                android:paddingLeft="5dp"
+                android:paddingTop="6dp"
+                android:text="Email Name"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alike_angular"
+                android:text="UserName"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/usernamefeatch"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/buton_squre"
+                android:paddingLeft="5dp"
+                android:paddingTop="6dp"
+                android:text="UserName"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alike_angular"
+                android:text="Change UserName"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/usernamechange"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/buton_squre"
+                android:hint="Enter UserName"
+                android:paddingLeft="5dp"
+                android:paddingTop="6dp"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="306dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="4dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/baseline_check_24"
+        android:text="Save" />
+
+
+    <TextView
+        android:id="@+id/logoutDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="27dp"
+        android:text="Log out ?"
+        android:gravity="center"
+
+        android:textColor="@color/red"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
